@@ -78,8 +78,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "phantombot") # Database name (defa
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'jisshu') # Collection name (default: dreamcinezone_files)
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
-MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), True) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://BOT:phanntombot@cluster0.iapuitx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
+MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "phantombot"), True) # Type True For Turn On MULTIPLE DB FUNTION 
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://phantombot:phantombot@cluster0.e9vbvo2.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
 # ============================
 # Movie Notification & Update Settings
 # ============================
