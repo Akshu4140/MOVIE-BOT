@@ -37,6 +37,8 @@ class Media(Document):
     file_id = fields.StrField(attribute="_id")
     file_name = fields.StrField(required=True)
     file_size = fields.IntField(required=True)
+    file_ref = fields.StrField(allow_none=True)
+    caption = fields.StrField(allow_none=False)
 
     class Meta:
         indexes = ("$file_name",)
@@ -48,6 +50,8 @@ class Media2(Document):
     file_id = fields.StrField(attribute="_id")
     file_name = fields.StrField(required=True)
     file_size = fields.IntField(required=True)
+    file_ref = fields.StrField(allow_none=True)
+    caption = fields.StrField(allow_none=False)
     
     class Meta:
         indexes = ("$file_name",)
