@@ -1869,7 +1869,7 @@ async def auto_filter(client, msg, spoll=False):
         if len(message.text) < 100:
             search = message.text
             search = search.lower()
-            m = await message.reply_sticker(f'CAACAgUAAxkBAAEPzixpG0oewZKtyI1ajt0hZUc2PkEFfQACexkAAueWIVfkESRaPBBdoTYE')
+            m = await message.reply_sticker(f'CAACAgUAAxkBAAEQGz5pT5r_gSudbIpTCqlSGlohH41RJQAClxsAAivL4FYGOaZ8AAHy3-82BA')
             find = search.split(" ")
             search = ""
             removes = ["in", "upload", "series", "full",
